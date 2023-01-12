@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend><h3>Personal Details</h3></legend>
+            <label for="Salutation">Salutation</label>
+            <br>
+            <select name="Salutation">
+                <option value="--None--">--None--</option>
+                <option value="Mr">Mr</option>
+                <option value="Mrs">Mrs</option>
+                <option value="Master">Master</option>
+                <option value="Miss">Miss</option>
+            </select>
+            <br>
+            <br>
+            <label for="FirstName">First name: </label>
+            <input type="text" name="FirstName" id="" required>
+            <br><br>
+            <label for="Lastname">Last name:</label>
+            <input type="text" name="Lastname" id="" required>
+            <br><br>
+            <label for="Gender">Gender:</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" required>
+            <br><br>
+            <label for="date-of-birth">Date of Birth:</label>
+            <input type="date">
+            <br><br>
+            <label for="address">Address</Address></label>
+            <br>
+            <textarea style="resize: none;" row="num" column="num" name="address" required></textarea>
+            <br>
+            <!-- inline css -->
+            <div style="text-align: center;"> 
+                <input type="submit" value="submit">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
