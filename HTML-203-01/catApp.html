@@ -1,0 +1,79 @@
+<!-- https://github.com/jjeerryyy28/HTML -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- https://jjeerryyy28.github.io/HTML/catphoto.html -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>CatPhoto</h1>
+        <section>
+            <p>
+                <a target="_blank" href="https://freecatphotoapp.com">Cat Photo.</a>
+            </p>
+            <a href="https://freecatphotoapp.com"><img
+                    src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+                    alt="cute cat lying on floor"></a>
+        </section>
+        <hr>
+        <section>
+            <h3>Cat List</h3>
+            <h3>Things cat love:</h3>
+            <ul>
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="Slice of lasagna.">
+                <figcaption><i>Cat loves</i> lasagna</figcaption>
+            </figure>
+            <hr>
+            <h3>Things that cat hates most</h3>
+            <ol>
+                <li>flea treatment</li>
+                <li>too much attention</li>
+                <li>thunder</li>
+            </ol>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+                    alt="Cats looking at each other">
+                    <figcaption><i>Cats looking at each other</i></figcaption>
+            </figure>
+        </section>
+        <section>
+            <hr>
+            <h2>Cat Form</h2>
+            <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <fieldset>
+                    <legend>
+                        Is you cat indoor or outdoor
+                    </legend>
+                    <label><input type="indoor" type="radio" name="indoor-outdoor" value="indoor" checked>Indoor</label>
+                    <label><input type="outdoor" type="radio" name="indoor-outdoor" value="outdoor"
+                            checked>Outdoor</label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>What is you cat type?</legend>
+                    <input name="personality" id="loving" value="love" type="checkbox" checked><label
+                        for="loving">Loving</label>
+                    <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+                    <input id="energetic" type="checkbox" name="personality" value="energetic"> <label
+                        for="energetic">Energetic</label>
+                </fieldset>
+                <br>
+                <input type="text" type="checkbox" name="catphoturl" placeholder="cat photo url" required>
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
