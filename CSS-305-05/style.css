@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.maincontainer{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    width: 25%;
+    height: 100%;
+    background-color: #e9faf8;
+
+}
+.profile{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.profile img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.profile h2{
+    padding-top: 10px;
+    font-size: 18px;
+    color: #63809d;
+    font-family: 'Alexandria', sans-serif;
+}
+.profile p{
+    font-size: 14px;
+    color: #a0b4ca;
+}
+
+
+.sidenavbutton{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.sidenavicon{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.sidenavicon i{
+    margin-right: 2rem;
+    color: #a0b4ca;
+    font-size: 20px;
+}
+.sidenavicon p{
+    font-family: 'Alexandria', sans-serif;
+    color: #a0b4ca;
+    font-size: 15px;
+}
+.sidenavcard{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 70%;
+    height: 65%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8fe3dd;
+
+}
+.cardfirst{
+    width: 40%;
+    height: 100%;
+
+}
+.cardfirst h2{
+    padding-top: 10px;
+  padding-left: 1.5rem;
+    font-size: 16px;
+    color: #daeeed;
+    font-family: 'Alexandria', sans-serif;
+}
+.cardimage{
+    width: 60%;
+    height: 100%;
+
+}
+.cardimage img{
+    margin-left: 1.5rem;
+    width: 100px;
+    height: 100px;
+}
+.maincontent{
+    width: 75%;
+    height: 100%;
+   background:linear-gradient(#dbf5f4,#94c6bd) ;
+}
+.mainupper{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upperheading{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.upperheading h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #63809d;
+    font-family: 'Alexandria', sans-serif;
+}
+.headingcontainer{
+    width: 40%;
+    height: 15%;
+    border-radius: 25px;
+    background-color: #eafaf8;
+
+    
+}
+.mainlower{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block{
+    width: 75%;
+    height: 30%;
+    border-radius: 10px;
+    display: flex;
+    background-color: #e9faf8;
+    box-shadow: 0px 5px 2px 2px #94c6bd;
+    margin-bottom: 2rem;
+}
+.blockimage{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blockimage img{
+    margin-left: 3rem;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+.blockcontent{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockcontent h3{
+    font-family: 'Alexandria', sans-serif;
+    font-size: 18px;
+    color: #a0b4ca;
+}
+.blockcontent p{
+    font-size: 12px;
+    margin-right: 10rem;
+    color: #a0b4ca;
+}
+.blockcontentcontainer{
+    width: 50%;
+    height: 20%;
+    border-radius: 25px;
+    background-color: #8fe3dd;
+
+}
+.blockpercent{
+    width: 10%;
+    height: 100%;
+}
+.blockpercent h3{
+    margin: 25px;
+    color: #a0b4ca;
+
+}
