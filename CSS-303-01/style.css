@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    }
+    
+    .maincontainer {
+    padding: 10px ;  
+     height: fit-content;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+    
+    .marker {
+    width: 260px;
+    height: 35px;
+    margin: 7px;
+    box-shadow: 0 0 20px 5px #bdcacc;   
+    }
+
+    .one{
+        background: linear-gradient(#944623,#ed3c6a,#af2a30);
+    }
+    .two{
+        background:linear-gradient(#597c13,#6deb3c,#337e4e);
+    }
+
+    .three{
+        background:linear-gradient(#174d74,#386ce8,#3241bc)
+    }
+   
+    .shadow{
+        margin-left: 4.5rem;
+        width: 60%;
+        height: 35px;
+        background-color: white;
+        opacity: 0.4;
+    }
+    .line{
+        width: 3px;
+        height: 35px;
+        border-left:5px  black solid;
+        border-right:5px  black solid;
+
+
+    } 
+    
