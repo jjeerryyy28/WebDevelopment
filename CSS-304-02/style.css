@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.maincontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    width: 40%;
+    height: 90%;
+    border: 5px white solid;
+    background-color: black;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+h3{
+    margin-left: 1rem;
+    color:white;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.inputform{
+    width: 95%;
+    margin: 15px;
+    padding: 12px 20px;
+ 
+}
+::placeholder{
+    color: rgb(79, 77, 77);
+    font-size: 17px;
+}
+.calender{
+    width: 95%;
+    margin: 12px;
+    margin-left: 1rem;
+background-color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.calender input{
+    margin-left: 0.5rem;
+    padding: 12px ;
+    border-color: transparent;
+}
+.calender i{
+margin-right: 14px;
+color: gray;
+}
+
+.inputcheckbox{
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.inputcheckbox input{
+    height: 3em;
+    width: 3em;
+    border-radius: 10%;
+}
+label{
+    font-style: italic;
+    margin-left: 15px;
+    color: gray;
+    font-size: 18px;
+ 
+}
+a{
+    color: gray;
+    font-size: 18px;
+
+}
+
+.buttoncontent{
+    border: 3px white solid;
+    margin-top: 1.5rem;
+    margin-left: 8rem;
+    width: 40%;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+
+}
