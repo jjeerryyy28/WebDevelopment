@@ -1,0 +1,138 @@
+import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@media print {
+body {-webkit-print-color-adjust: exact;}
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg,rgb(249, 212, 153),#fff,#9eec78) fixed;
+    padding:50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.cardSedan{
+    width: 250px;
+    height: auto;
+    position: relative;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 20px;
+    transition: all .3s ease-in;
+}
+.cardSedan > *{
+    padding: 10px;
+}
+.cardSedan .card-image{
+    height: 150px;
+    width: 150px;
+    border: 5px double #022a3c;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;    
+}
+.cardSedan .card-title{
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 2px #262654;
+}
+.cardSedan .card-text{
+    line-height: 20px;
+    font-size: 400;
+}
+
+.cardSUV{
+    width: 250px;
+    height: auto;
+    position: relative;
+    background: rgb(156, 235, 241);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 20px;
+    transition: all .3s ease-in;
+}
+.cardSUV > *{
+    padding: 10px;
+}
+.cardSUV .card-image{
+    height: 150px;
+    width: 150px;
+    border: 5px double #022a3c;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;    
+}
+.cardSUV .card-title{
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 2px #262654;
+}
+.cardSUV .card-text{
+    line-height: 20px;
+    font-size: 400;
+}
+
+.cardLuxury{
+    width: 250px;
+    height: auto;
+    position: relative;
+    background: rgb(188, 255, 170);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 20px;
+    transition: all .3s ease-in;
+}
+.cardLuxury > *{
+    padding: 10px;
+}
+.cardLuxury .card-image{
+    height: 150px;
+    width: 150px;
+    border: 5px double #022a3c;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;    
+}
+.cardLuxury .card-title{
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 2px #262654;
+}
+.cardSedan:nth-child(1) .card-image{
+    background-image: url(sedan.png);
+}
+.cardSUV:nth-child(2) .card-image{
+    background-image: url(suv.png);
+}
+.cardLuxury:nth-child(3) .card-image{
+    background-image: url(luxury.png);
+}
+.cardLuxury .card-text{
+    line-height: 20px;
+    font-size: 400;
+}
