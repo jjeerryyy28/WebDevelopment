@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ .maincontainer{
+    width: 100vw;
+    height: 100vh;
+ }
+ .container{
+    width: 100%;
+    height: 30%;
+
+ }
+ .navbar{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #3d71e7;
+
+ }
+ .logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-end;
+
+ }
+ .logo img{
+    width: 40%;
+    height: 70%;
+    margin-top: -10px;
+    margin-right: 5px;
+ }
+ .searchbar{
+    width: 40%;
+    height: 70%;
+    background-color: white;
+ }
+ .searchbar input{
+    width: 95%;
+    height: 100%;
+    border: transparent;
+
+ }
+ .searchbar i{
+    color: blue;
+ }
+ ::placeholder{
+    font-size: 14px;
+    padding-left: 10px;
+ }
+ .login{
+    width: 10%;
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
+
+ }
+ .login button{
+    width: 90%;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 7px;
+    border: transparent;
+    color: #3d71e7;
+    background-color: #fefeff;
+
+ }
+
+ .cart{
+    width: 35%;
+    height: 100%;;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+   
+ }
+ .cart p{
+   margin-left: 40px;
+   font-size: 16px;
+   color: white;
+      
+}
+
+ .carticon{
+   margin-left: 40px;
+   color: white;
+   display: flex;
+   
+ }
+ .carticon p{
+   margin-left: 10px;
+ }
+
+ .cart select{
+   font-size: 14px;
+   margin-left: 40px;
+   border: transparent;
+   background-color:#3d71e7 ;
+   color: white;
+ }
+
+ 
+ .content{
+    width: 100%;
+    height: 65%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+ .imagecontainer{
+   width: 95%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .figure{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .figure img{
+   width: 67px;
+   height: 64px;
+  
+ }
+ .figure p{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+font-size: 13px;
+ }
+ .figure select{
+   font-size: 13px;
+   padding: 5px;
+   font-family: 'Roboto', sans-serif;
+margin-left: 10px;
+   border: transparent  ;
+ }
+
+ .figuretoys{
+   width: 15%;
+   height: 100%;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .figuretoys img{
+   width: 67px;
+   height: 64px;
+ }
+
+ .figuretoys select{
+   font-family: 'Roboto', sans-serif;
+   font-size: 13px;
+   margin-left: 10px;
+   padding: 5px;
+   border: transparent  ;
+ }
